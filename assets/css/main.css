@@ -84,9 +84,10 @@ html {
 }
 
 body {
-	background: #ffffff;
+	background: #eceff1;
 	height: 100%;
 	min-width: 320px;
+	transition: 0.3s;
 }
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1816,7 +1817,6 @@ table {
 	}
 
 /* Header */
-
 #header {
 	position: fixed;
 	z-index: 10000;
@@ -2140,16 +2140,9 @@ body {
 
 	}
 
-	@media screen and (max-width: 480px) {
-
-		.main > .content {
-			max-width: calc(100% - 1.5em);
-		}
-
-	}
+	  
 
 /* Footer */
-
 #footer {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -2214,7 +2207,7 @@ body {
 			}
 
 	}
-
+corrent
 	@media screen and (max-width: 736px) {
 
 		#footer ul.menu li {

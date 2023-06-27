@@ -75,7 +75,7 @@
 				.triggerHandler('resize.ie-flexbox-fix');
 
 		}
-
+		
 	// Gallery.
 		$window.on('load', function() {
 
